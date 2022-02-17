@@ -57,9 +57,9 @@ a {
 /* ----------------- */
 
 :root {
-  --gradient-text: linear-gradient(89.97deg, #530068, #b13800, #E60234, #8b0f32, #1e03ce);
-  --gradient-bar: linear-gradient(103.22deg, #530068 -13.86%, #1e03ce 99.55%);
-  --static-text: linear-gradient(75.35deg, #530068, #e60234);
+  --gradient-text: linear-gradient(89.97deg, #6800a5, #d8083c, #00dce4, #d45500);
+  --gradient-bar: linear-gradient(103.22deg, #6800a5 -13.86%, #d8083c 99.55%);
+  --static-text: linear-gradient(75.35deg, #d8083c, #6800a5);
 
   --color-bg: #030022;
   --color-footer: #031B34;

@@ -511,7 +511,7 @@ ul.solarsystem li.pluto {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #E60234;
+    border: 1px solid #00dce4;
     border-radius: 50%;
 }
 
@@ -539,7 +539,7 @@ ul.solarsystem li.pluto {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #06c;
+    background-color: #d8083c;
 }
 
 .sun {
@@ -817,7 +817,7 @@ ul.solarsystem li.pluto {
     }
 
     ul#descriptions li p {
-        top: 50%;
+        top: 40%;
     }
 
 }
@@ -840,7 +840,7 @@ ul.solarsystem li.pluto {
     }
 
     ul#descriptions li p {
-        top: 40%;
+        top: 30%;
         width: 90%;
     }
 

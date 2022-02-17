@@ -36,7 +36,7 @@
     letter-spacing: 2px;
     font-weight: bold;
     font-family: var(--font-family);
-    background: linear-gradient(103.22deg, #8b0f32 -13.86%, #e60234 79.55%);
+    background: linear-gradient(103.22deg, #6800a5 -13.86%, #d8083c 79.55%);
     background-clip: text;
     -webkit-bakground-clip: text;
     -webkit-text-fill-color: transparent
@@ -47,7 +47,7 @@
     align-items: center;
     padding: 1px;
     margin-right: 3px;
-    color: #1e03ce;
+    color: #6800a5;
 }
 
 .Navbar__links-container {

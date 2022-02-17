@@ -59,7 +59,7 @@ a {
 :root {
   --gradient-text: linear-gradient(89.97deg, #530068, #b13800, #E60234, #8b0f32, #1e03ce);
   --gradient-bar: linear-gradient(103.22deg, #530068 -13.86%, #1e03ce 99.55%);
-  --static-text: linear-gradient(75.35deg, #008080, #E60234);
+  --static-text: linear-gradient(75.35deg, #530068, #e60234);
 
   --color-bg: #030022;
   --color-footer: #031B34;
@@ -74,21 +74,21 @@ a {
 /* -Utility-Classes- */
 /* ----------------- */
 
-.gradient_bg {
+.gradient__bg {
   /* ff 3.6+ */
-  background: -moz-radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+  background: -moz-radial-gradient(circle at 3% 25%, #030022 0%, #53006880 100%);
 
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+  background: -webkit-radial-gradient(circle at 3% 25%, #030022 0%, #53006880 100%);
 
   /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+  background: -o-radial-gradient(circle at 3% 25%, #030022 0%, #53006880 100%);
 
   /* ie 10+ */
-  background: -ms-radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+  background: -ms-radial-gradient(circle at 3% 25%, #030022 0%, #53006880 100%);
 
   /* global 92%+ browsers support */
-  background: radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+  background: radial-gradient(circle at 3% 25%, #030022 0%, #53006880 100%);
 }
 
 .gradient__text {
@@ -178,6 +178,10 @@ a {
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
 }
 
 @keyframes glow {

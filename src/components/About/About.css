@@ -90,7 +90,7 @@
         0 0 35px 15px #eeedee;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1250px) {
     .About {
         flex-direction: column;
     }

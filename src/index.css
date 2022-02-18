@@ -57,12 +57,13 @@ a {
 /* ----------------- */
 
 :root {
-  --gradient-text: linear-gradient(89.97deg, #6800a5, #d8083c, #00dce4, #d45500);
+  --gradient-text: linear-gradient(89.97deg, #6800a5, #d8083c, #6800a5, #d45500);
   --gradient-bar: linear-gradient(103.22deg, #6800a5 -13.86%, #d8083c 99.55%);
   --static-text: linear-gradient(75.35deg, #d8083c, #6800a5);
 
   --color-bg: #030022;
   --color-footer: #031B34;
+  
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;

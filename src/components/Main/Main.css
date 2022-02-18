@@ -1,8 +1,8 @@
-.About {
+.Main {
     display: flex;
 }
 
-.About__container {
+.Main__container {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
     margin-inline: 5rem;
 }
 
-.About__container-header {
+.Main__container-header {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-.About__container-header2 {
+.Main__container-header2 {
     font-family: var(--font-family);
     font-size: 3rem;
     line-height: 2.4rem;
@@ -30,7 +30,7 @@
     text-align: center;
 }
 
-.About__container-header__content {
+.Main__container-header__content {
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 27px;
@@ -40,14 +40,14 @@
     text-align: center;
 }
 
-.About__container-button-box {
+.Main__container-button-box {
     height: 3.5rem;
     margin: 2rem 0 1rem;
     display: flex;
 
 }
 
-.About__container-btn button {
+.Main__container-btn button {
     flex: 0.6;
     width: 100%;
     height: 100%;
@@ -64,7 +64,7 @@
     border: none;
 }
 
-.About__container-btn button:hover {
+.Main__container-btn button:hover {
     background: var(--gradient-bar);
     transform: scale(1.2, 1.2);
     color: #00dce4;
@@ -73,7 +73,7 @@
         0 0 35px 15px #00dce4;
 }
 
-.About__container-image {
+.Main__container-image {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -81,7 +81,7 @@
     margin: 6%;
 }
 
-.About__container-image img {
+.Main__container-image img {
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -91,27 +91,27 @@
 }
 
 @media screen and (max-width: 1250px) {
-    .About {
+    .Main {
         flex-direction: column;
     }
 
-    .About__container {
+    .Main__container {
         margin: 0 0 3rem;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .About__container-header {
+    .Main__container-header {
         font-size: 48px;
         line-height: 60px;
     }
 
-    .About__container-header2 {
+    .Main__container-header2 {
         font-size: 16px;
         line-height: 24px;
     }
 
-    .About__container-header__content {
+    .Main__container-header__content {
         font-size: 14px;
     }
 

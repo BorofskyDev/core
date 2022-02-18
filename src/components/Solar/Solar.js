@@ -71,7 +71,8 @@ function Solar() {
                     <p>Being able to qualify the credit worthiness of potential clients in a quick fashion
                         frees up your sales team to focus on more clients. We all know that sales is about
                         the law of averages - our quick credit evaluation allows you to see more qualified customers
-                        and helps qualify more potential customers.
+                        and helps qualify more potential custo
+                        mers.
                     </p>
                 </li>
 
